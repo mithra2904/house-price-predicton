@@ -1,0 +1,38 @@
+ Area  Bedrooms  Bathrooms  Price
+0  1000         2          1     30
+1  1200         2          2     35
+2  1500         3          2     45
+3  1800         3          2     55
+4  2000         3          3     65
+5  2200         4          3     75
+6  2500         4          3     85
+7  2800         4          4     95
+Input:
+   Area  Bedrooms  Bathrooms
+0  1000         2          1
+1  1200         2          2
+2  1500         3          2
+3  1800         3          2
+4  2000         3          3
+5  2200         4          3
+6  2500         4          3
+7  2800         4          4
+Output:
+0    30
+1    35
+2    45
+3    55
+4    65
+5    75
+6    85
+7    95
+Name: Price, dtype: int64
+Model trained successfully!
+Actual Prices:
+1    35
+5    75
+Name: Price, dtype: int64
+Predicted Prices:
+[35.53571429 71.07142857]
+Mean Absolute Error: 2.2321428571428648
+Predicted House Price: 49.64285714285715 lakhs
